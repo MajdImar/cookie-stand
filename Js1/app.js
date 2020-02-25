@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+var Hours = ['6am:', '7am:', '8am:', '9am:', '10am:', '11am:', '12pm:', '1pm:', '2pm:', '3pm:', '4pm:', '5pm:', '6pm:', '7pm:','8pm:'];
+var Seattle = {
+    loc1: 'Seattle',
+    max: 65,
+    min: 23,
+    avg: 6.3,
+>>>>>>> 5e1829cc3263de4396e6859a57f4d25e2ae85657
 
 var Hours = ['6am:', '7am:', '8am:', '9am:', '10am:', '11am:', '12pm:', '1pm:', '2pm:', '3pm:', '4pm:', '5pm:', '6pm:', '7pm:','8pm:'];
 function shops(location,rancustmer,amountofcokkies,total){
