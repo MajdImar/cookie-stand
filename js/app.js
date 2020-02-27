@@ -88,6 +88,41 @@ for (var i = 0; i < locations.length; i++) {
     locations[i].allCookies();
     locations[i].render();
 }
+
+var myform= document.getElementById('newlocation');
+myform.addEventListener('submit',function(event){
+    event.preventDefault();
+    //console.log(event);
+    var locationname = event.target.locationnames.value;
+    console.log(locationname);  
+    var max=event.target.max.value;
+    var min=event.target.min.value;
+    var avg =event.target.avg.value;
+    //console.log(min);
+    if(min<max){
+        
+        tableE1.removeChild(tableE1.lastChild);
+var addedlocation= new Shop (locationname, max, min, avg);
+addedlocation.allCookies();
+addedlocation.render();
+// console.log(addedlocation.allCookies);
+// console.log(addedlocation.render);
+footer();
+
+    }
+
+else{
+    alert('maximum number must be bigeer');
+}
+
+})
+
+
+
+
+
+
+
 function footer() {
     var tr4 = document.createElement('tr');
     tableE1.appendChild(tr4);
