@@ -95,9 +95,9 @@ myform.addEventListener('submit',function(event){
     //console.log(event);
     var locationname = event.target.locationnames.value;
     console.log(locationname);  
-    var max=event.target.max.value;
-    var min=event.target.min.value;
-    var avg =event.target.avg.value;
+    var max=parseInt(event.target.max.value);
+    var min=parseInt(event.target.min.value);
+    var avg =parseFloat(event.target.avg.value);
     //console.log(min);
     if(min<max){
         
