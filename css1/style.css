@@ -1,0 +1,38 @@
+body{
+    background-image: url(/images/9051_4k.jpg);
+    background-size: cover;
+   
+}
+#container{
+    width: 1000px;
+    margin: 0px auto;
+  
+}
+#headerlogo{
+    overflow: hidden;
+    padding: 15px;
+}
+#headerimage{
+    width: 100px;
+    margin: 5px;
+    float: left;
+    margin-left: 14px;
+}
+header h1{
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 9px;
+    font-size: 40px;
+    font-family: 'Fredoka One';
+
+}
+
+
+
+
+
+/* main h1{
+    font-family: 'Fredoka One';
+
+} */
