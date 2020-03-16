@@ -105,7 +105,7 @@ myform.addEventListener('submit',function(event){
 var addedlocation= new Shop (locationname, max, min, avg);
 addedlocation.allCookies();
 addedlocation.render();
-// console.log(addedlocation.allCookies);
+ console.log(addedlocation.allCookies);
 // console.log(addedlocation.render);
 footer();
 
